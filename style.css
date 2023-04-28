@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: none;
+}
+
+.cabecalho{
+    background-image: linear-gradient(to right, #000000 50%, #FFBD59 50%);
+    padding: 0 0 92px 0;
+}
+
+.joao{
+    color: #fff;
+    font-size: 110px;
+    padding: 30px 0 0 280px;
+    font-family: 'Babylonica', cursive;
+    position: absolute;
+}
+
+.lucas{
+    color: #fff;
+    font-size: 110px;
+    padding: 280px 0 0 250px;
+    font-family: 'Babylonica', cursive;
+}
+
+.secondB{
+    color: #fff;
+    font-size: 50px;
+    padding: 0 0 0 900px;
+    font-family: cursive;
+}
+
+.intro{
+    padding: 20px;
+    margin: 60px 0 0 40px;
+}
+
+.florestan-foto{
+    position: relative;
+}
+
+.nome-autor{
+    position: absolute;
+    padding: 10px 0 0 550px;
+    font-size: 90px;
+    font-family: 'Satisfy', cursive;
+}
+
+.descricao{
+    position: absolute;
+    padding: 150px 0 0 550px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.informacoes{
+    background: #000000;
+    padding: 40px;
+}
+
+.especificacao{
+    color: #fff;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+}
+
+.frase{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+    padding-left: 70px;
+}
+
+.background{
+    background: #000000;
+    padding: 64px;
+}
+
+.texto-da-mao{
+    color: #fff;
+    padding: 180px 0 0 400px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    position: absolute;
+}
+
+.imagem-da-mao{
+    position: relative;
+}
+
+.background-2{
+    background: #000000;
+    padding: 75px;
+}
+
+.texto-da-prisao{
+    color: #fff;
+    padding: 100px 500px 0 0px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    position: absolute;
+}
+
+.imagem-da-prisao{
+    padding: 0 0 0 820px;
+    position: relative;
+    height: 500px;
+    width: 390px;
+}
+
+.background-3{
+    background: #000000;
+    padding: 150px;
+}
+
+.texto-do-grafico{
+    color: #fff;
+    padding: 0px 600px 0 0px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    position: absolute;
+}
+
+.grafico{
+    padding: 0 0 0 600px;
+    position: relative;
+    height: 300px;
+    width: 550px;
+}
+
+
+.background-4{
+    background: #000000;
+    padding: 64px;
+}
+
+.texto-do-salveosnegros{
+    color: #fff;
+    padding: 100px 40px 0 450px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    position: absolute;
+}
+
+.imagem-salveosnegros{
+    position: relative;
+    height: 600px;
+    width: 390px;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIESSSSSSSSS!!!!!!!!!! */
+
+
+
+@media (min-width: 320px) and (max-width: 375px){
+    @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+    
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-align: none;
+    }
+    
+    .cabecalho{
+        background-image: linear-gradient(to right, #000000 50%, #FFBD59 50%);
+        padding: auto;
+    }
+    
+    .joao{
+        color: #fff;
+        font-size: 40px;
+        padding: 130px 0 0 10px;
+        font-family: 'Babylonica', cursive;
+        position: absolute;
+    }
+    
+    .lucas{
+        color: #fff;
+        font-size: 35px;
+        padding: 260px 0 0 10px;
+        font-family: 'Babylonica', cursive;
+    }
+    
+    .secondB{
+        color: #fff;
+        font-size: 25px;
+        padding: 0 0 0 250px;
+        font-family: cursive;
+    }
+    
+    .intro{
+        padding: 15px 0 50px 10px;
+        margin: 0px 0 0 0px;
+    }
+    
+    .florestan-foto{
+        position: relative;
+        height: 200px;
+        width: 140px;
+    }
+    
+    .nome-autor{
+        position: absolute;
+        padding: 10px 0 0 150px;
+        font-size: 23px;
+        font-family: 'Satisfy', cursive;
+    }
+    
+    .descricao{
+        position: absolute;
+        padding: 50px 10px 0 150px;
+        font-size: 13px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .informacoes{
+        background: #000000;
+        padding: 40px;
+    }
+    
+    .especificacao{
+        color: #fff;
+        padding: 0 0 10px 0;
+        font-size: 16px;
+        font-family: 'Rancho', cursive;
+    }
+    
+    .frase{
+        color: #fff;
+        font-family: 'Italianno', cursive;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    
+    .background{
+        background: #000000;
+        padding-bottom: 64px;
+    }
+    
+    .texto-da-mao{
+        color: #fff;
+        padding: 70px 20px 0 140px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-da-mao{
+        position: relative;
+        height: 200px;
+        width: 150px;
+    }
+    
+    .background-2{
+        background: #000000;
+        padding: 75px;
+    }
+    
+    .texto-da-prisao{
+        color: #fff;
+        padding: 0px 160px 0 0px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-da-prisao{
+        padding: 30px 0 0 200px;
+        position: relative;
+        height: 100px;
+        width: 80px;
+    }
+    
+    .background-3{
+        background: #000000;
+        padding: 50px;
+    }
+    
+    .texto-do-grafico{
+        color: #fff;
+        padding: 0px 200px 0 0px;
+        font-size: 15px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .grafico{
+        padding: 20px 0 0 130px;
+        position: relative;
+        height: 130px;
+        width: 170px;
+    }
+    
+    
+    .background-4{
+        background: #000000;
+        padding: 25px;
+    }
+    
+    .texto-do-salveosnegros{
+        color: #fff;
+        padding: 0px 30px 0 150px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-salveosnegros{
+        position: relative;
+        height: 170px;
+        width: 130px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 376px) and (max-width: 425px){
+    @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+    
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-align: none;
+    }
+    
+    .cabecalho{
+        background-image: linear-gradient(to right, #000000 50%, #FFBD59 50%);
+        padding: 0 0 120px 0;
+    }
+    
+    .joao{
+        color: #fff;
+        font-size: 50px;
+        padding: 130px 0 0 10px;
+        font-family: 'Babylonica', cursive;
+        position: absolute;
+    }
+    
+    .lucas{
+        color: #fff;
+        font-size: 40px;
+        padding: 260px 0 0 10px;
+        font-family: 'Babylonica', cursive;
+    }
+    
+    .secondB{
+        color: #fff;
+        font-size: 25px;
+        padding: 0 0 0 300px;
+        font-family: cursive;
+    }
+    
+    .intro{
+        padding-bottom: 50px;
+        margin: 20px 0 0 5px;
+    }
+    
+    .florestan-foto{
+        position: relative;
+        height: 250px;
+        width: 190px;
+    }
+    
+    .nome-autor{
+        position: absolute;
+        padding: 10px 0 0 195px;
+        font-size: 18px;
+        font-family: 'Satisfy', cursive;
+    }
+    
+    .descricao{
+        position: absolute;
+        padding: 50px 0 0 200px;
+        font-size: 13px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .informacoes{
+        background: #000000;
+        padding: 40px;
+    }
+    
+    .especificacao{
+        color: #fff;
+        padding: 0 0 10px 0;
+        font-size: 16px;
+        font-family: 'Rancho', cursive;
+    }
+    
+    .frase{
+        color: #fff;
+        font-family: 'Italianno', cursive;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    
+    .background{
+        background: #000000;
+        padding-bottom: 64px;
+    }
+    
+    .texto-da-mao{
+        color: #fff;
+        padding: 70px 20px 0 140px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-da-mao{
+        position: relative;
+        height: 200px;
+        width: 150px;
+    }
+    
+    .background-2{
+        background: #000000;
+        padding: 75px;
+    }
+    
+    .texto-da-prisao{
+        color: #fff;
+        padding: 0px 160px 0 0px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-da-prisao{
+        padding: 30px 0 0 200px;
+        position: relative;
+        height: 100px;
+        width: 80px;
+    }
+    
+    .background-3{
+        background: #000000;
+        padding: 50px;
+    }
+    
+    .texto-do-grafico{
+        color: #fff;
+        padding: 20px 220px 0 0px;
+        font-size: 15px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .grafico{
+        padding: 20px 0 0 150px;
+        position: relative;
+        height: 130px;
+        width: 170px;
+    }
+    
+    
+    .background-4{
+        background: #000000;
+        padding: 25px;
+    }
+    
+    .texto-do-salveosnegros{
+        color: #fff;
+        padding: 5px 30px 0 150px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-salveosnegros{
+        position: relative;
+        height: 170px;
+        width: 130px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 355px){
+    @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+    
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-align: none;
+    }
+    
+    .cabecalho{
+        background-image: linear-gradient(to right, #000000 50%, #FFBD59 50%);
+        padding-left: 50px;
+    }
+    
+    .joao{
+        color: #fff;
+        font-size: 40px;
+        padding: 130px 0 0 10px;
+        font-family: 'Babylonica', cursive;
+        position: absolute;
+    }
+    
+    .lucas{
+        color: #fff;
+        font-size: 35px;
+        padding: 260px 0 0 10px;
+        font-family: 'Babylonica', cursive;
+    }
+    
+    .secondB{
+        color: #fff;
+        font-size: 25px;
+        padding: 0 0 0 250px;
+        font-family: cursive;
+    }
+    
+    .intro{
+        padding: 15px 0 50px 10px;
+        margin: 0px 0 0 0px;
+    }
+    
+    .florestan-foto{
+        position: relative;
+        height: 200px;
+        width: 140px;
+    }
+    
+    .nome-autor{
+        position: absolute;
+        padding: 10px 0 0 150px;
+        font-size: 23px;
+        font-family: 'Satisfy', cursive;
+    }
+    
+    .descricao{
+        position: absolute;
+        padding: 50px 10px 0 150px;
+        font-size: 13px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .informacoes{
+        background: #000000;
+        padding: 40px;
+    }
+    
+    .especificacao{
+        color: #fff;
+        padding: 0 0 10px 0;
+        font-size: 16px;
+        font-family: 'Rancho', cursive;
+    }
+    
+    .frase{
+        color: #fff;
+        font-family: 'Italianno', cursive;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    
+    .background{
+        background: #000000;
+        padding-bottom: 64px;
+    }
+    
+    .texto-da-mao{
+        color: #fff;
+        padding: 70px 20px 0 140px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-da-mao{
+        position: relative;
+        height: 200px;
+        width: 150px;
+    }
+    
+    .background-2{
+        background: #000000;
+        padding: 75px;
+    }
+    
+    .texto-da-prisao{
+        color: #fff;
+        padding: 0px 160px 0 0px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-da-prisao{
+        padding: 30px 0 0 200px;
+        position: relative;
+        height: 100px;
+        width: 80px;
+    }
+    
+    .background-3{
+        background: #000000;
+        padding: 50px;
+    }
+    
+    .texto-do-grafico{
+        color: #fff;
+        padding: 0px 200px 0 0px;
+        font-size: 15px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .grafico{
+        padding: 20px 0 0 130px;
+        position: relative;
+        height: 130px;
+        width: 170px;
+    }
+    
+    
+    .background-4{
+        background: #000000;
+        padding: 25px;
+    }
+    
+    .texto-do-salveosnegros{
+        color: #fff;
+        padding: 0px 30px 0 150px;
+        font-size: 13px;
+        font-family: 'Rancho', cursive;
+        position: absolute;
+    }
+    
+    .imagem-salveosnegros{
+        position: relative;
+        height: 170px;
+        width: 130px;
+    }
+}
